@@ -1,0 +1,33 @@
+//style for register and login page
+
+.login,
+.register {
+    color: #F8F8F8;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 500px;
+    min-height: 300px;
+    background-color: #181f44d2;
+    form {
+      text-align: center;
+      margin: auto;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+    }
+    .input {
+    display: flex;
+    flex-direction: column;
+    }
+    button {
+      margin-top: 20px;
+    }
+    #alert {
+      font-size: .9rem;
+      font-weight: bold;
+      white-space: pre-line;
+      color: #c44c4c;
+    }
+  }
+
+  
